@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+
+body {
+background-image: url("https://pixel.nymag.com/imgs/daily/selectall/2016/09/29/29-kanye-west-tlop.nocrop.w710.h2147483647.jpg");
+background-size: cover;
+}
+
+h1 {
+text-align: center;
+position: relative;
+top: 650px;
+color: white;
+text-decoration: underline;
+text-decoration-color: #E94406;
+font-size: 60px;
+font-family: cursive;
+font-weight: bold;
+}
+
+.content {
+  position: relative;
+  bottom: 250px;
+  margin: 100px auto;
+  width: 800px;
+  length: 800px;
+  padding: 50px;
+}
+
+.user-input {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  background: #E94406;
+}
+
+.placeholder {
+  text-align: center;
+}
+
+.dream {
+  width: 300px;
+  margin: 25px auto 5px auto;
+  padding: 5px;
+  font-size: 90%;
+  text-align: center;
+}
+
+.submit-btn {
+  width: 300px;
+  padding: 5px;
+  margin: 5px auto 25px auto;
+  background: #F38E3F;
+  border: none;
+  border-radius: 2px;
+  color: #fff;
+  font-size: 100%;
+}
+
+.card-container {
+  padding: 30px;
+  background: #F38E3F;
+}
+
+h2 {
+  font-size: 120%;
+  margin-bottom: 10px;
+}
+
+.name-card {
+  margin: 0 auto;
+  margin-bottom: 10px;
+  padding: 8px;
+  width: 300px;
+  background: #fff;
+}
+
+.wish {
+  display: flex;
+  flex-direction: row;
+justify-content: center;
+}
